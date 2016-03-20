@@ -16,7 +16,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('News')->delete();
+        DB::table('news')->delete();
         News::create([
             'slug' => 'news1',
             'image' => '/img/img-6.jpg',
@@ -43,7 +43,7 @@ Sed iaculis condimentum nibh posuere gravida. Lorem ipsum dolor sit amet, consec
             'published_at' => Carbon::now()
         ]);
 
-        DB::table('Videos')->delete();
+        DB::table('videos')->delete();
         Video::create([
             'title' => 'First Video',
             'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem quam, adipiscing condimentum tristique vel, eleifend sed turpis.',
@@ -58,9 +58,9 @@ Sed iaculis condimentum nibh posuere gravida. Lorem ipsum dolor sit amet, consec
             'published_at' => Carbon::now()
         ]);
 
-        DB::table('Questions')->delete();
+        DB::table('questions')->delete();
 
-        DB::table('Albums')->delete();
+        DB::table('albums')->delete();
         Album::create([
             'slug' => 'first_album',
             'title' => 'First album',

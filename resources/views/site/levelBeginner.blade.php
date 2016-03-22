@@ -22,9 +22,9 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 margin20">
-                <h3 class="heading">Better Services Provide by us</h3>
+                <h3 class="heading">Beginner</h3>
                 <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni. Dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+                    You can speak and understand in a very limited way. Maybe you know some basic grammar rules. You can't read or write, or yo can read with a help of a dictionary.
                 </p>
             </div>
             <div class="col-md-6">

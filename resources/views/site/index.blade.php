@@ -152,75 +152,21 @@
                 <div class="col-md-12">
                     <div id="work-carousel" class="owl-carousel owl-spaced">
 
-                        <div>
-                            <div class="item-img-wrap ">
-                                <img src="{{ asset('img/img-1.jpg') }}" class="img-responsive" alt="workimg">
-                                <div class="item-img-overlay">
-                                    <a href="{{ asset('img/img-1.jpg') }}" class="show-image">
-                                        <span></span>
-                                    </a>
+                        @foreach($albums as $album)
+                            <div>
+                                <div class="item-img-wrap ">
+                                    <img src="{!! $album['wrap_image'] !!}" class="img-responsive" alt="workimg">
+                                    <div class="item-img-overlay">
+                                        <a href="{!! $album['wrap_image'] !!}" class="show-image">
+                                            <span></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="work-desc">
+                                    <h3><a href="portfolio-single.html">{!! $album['title'] !!}</a></h3>
                                 </div>
                             </div>
-                            <div class="work-desc">
-                                <h3><a href="portfolio-single.html">woo Commerce</a></h3>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div class="item-img-wrap ">
-                                <img src="{{ asset('img/img-2.jpg') }}" class="img-responsive" alt="workimg">
-                                <div class="item-img-overlay">
-                                    <a href="{{ asset('img/img-2.jpg') }}" class="show-image">
-                                        <span></span>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="work-desc">
-                                <h3><a href="portfolio-single.html">Web Develop</a></h3>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div class="item-img-wrap ">
-                                <img src="{{ asset('img/img-3.jpg') }}" class="img-responsive" alt="workimg">
-                                <div class="item-img-overlay">
-                                    <a href="{{ asset('img/img-3.jpg') }}" class="show-image">
-                                        <span></span>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="work-desc">
-                                <h3><a href="portfolio-single.html">Web Design</a></h3>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div class="item-img-wrap ">
-                                <img src="{{ asset('img/img-4.jpg') }}" class="img-responsive" alt="workimg">
-                                <div class="item-img-overlay">
-                                    <a href="{{ asset('img/img-4.jpg') }}" class="show-image">
-                                        <span></span>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="work-desc">
-                                <h3><a href="portfolio-single.html">Graphics Design</a></h3>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div class="item-img-wrap ">
-                                <img src="{{ asset('img/img-5.jpg') }}" class="img-responsive" alt="workimg">
-                                <div class="item-img-overlay">
-                                    <a href="{{ asset('img/img-5.jpg') }}" class="show-image">
-                                        <span></span>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="work-desc">
-                                <h3><a href="portfolio-single.html">Psd Design</a></h3>
-                            </div>
-                        </div>
+                        @endforeach
 
                     </div>
                 </div>

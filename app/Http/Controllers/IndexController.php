@@ -2,14 +2,16 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Album;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Models\News;
 
 class IndexController extends Controller
 {
-    public function index(News $newsModel){
+    public function index(News $newsModel, Album $albumModel){
         $news = $newsModel->getNews();
-        return view('site.index', ['news' => $news]);
+        $albums = $albumModel->getAlbums();
+        return view('site.index', ['news' => $news, 'albums' => $albums]);
     }
 }

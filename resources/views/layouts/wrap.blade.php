@@ -28,7 +28,20 @@
                 <ul class="list-inline top-dark-right">
                     <li class="hidden-sm hidden-xs"><i class="fa fa-envelope"></i> Support@mail.com</li>
                     <li class="hidden-sm hidden-xs"><i class="fa fa-phone"></i> +375(29) 123-45-67</li>
-                    <li><a href="{{ route('loginPage') }}"><i class="fa fa-lock"></i> Login</a></li>
+                    @if (Auth::guest())
+                        <li><a href="{{ url('/login') }}"><i class="fa fa-lock"></i> Login</a></li>
+                        <li><a href="{{ url('/register') }}"><i class="fa fa-user"></i> Register</a></li>
+                    @else
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                {{ Auth::user()->name }} <span class="caret"></span>
+                            </a>
+
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i>Logout</a></li>
+                            </ul>
+                        </li>
+                    @endif
                 </ul>
             </div>
         </div>
@@ -166,7 +179,6 @@
                         </div>
                         <div class="form-group">
                                 <span class="input-group-btn">
-                                    {{--<button class="btn  btn-theme-dark btn-lg" type="submit">Send</button>--}}
                                     <button class="success-alert btn btn-theme-dark btn-lg btn-sweet-alert" type="submit">send</button>
                                 </span>
                         </div>

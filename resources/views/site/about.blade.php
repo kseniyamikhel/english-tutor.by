@@ -21,7 +21,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 margin20">
-                <h3 class="heading">A little about me</h3>
+                <h3 class="heading">Немного обо мне</h3>
                 <p>Здравствуйте! Меня зовут Кристина Михаловская.</p>
                 <p>Я окончила Минский Государственный Лингвистический Университет, факультет Межкультурных коммуникаций по специальности международный туризм. По образованию я переводчик, но, как оказалось, мое призвание - это преподавание.</p>
                 <p>Впервые попробовала себя в этой роли со взрослыми студентами из Института повышения квалификации таможенных рабочих. Группа, которую мне дали, полностью состояла из студентов, только начинающих учить язык. После двух месяцев преподавания я поняла - это мое! После этого я и занялась репетиторством.</p>
@@ -29,7 +29,7 @@
                 <p>К каждому своему студенту у меня индивидуальный подход. И, конечно, в каждый урок я стараюсь внести что-то новое и интересное, чтобы студент был заинтересован в обучении и получал от него удовольствие. Однако не стоит забывать, что как бы ни старался преподаватель, от него зависит лишь 50% успеха в изучении языка. Остальные 50% зависят только от вас!</p>
             </div>
             <div class="col-md-6">
-                <img src="img/showcase-1.jpg" class="img-responsive" alt="">
+                <img src="{{ asset('img/iam.jpg') }}" class="img-responsive" alt="">
             </div>
         </div>
 
@@ -38,63 +38,51 @@
         <div class="row">
 
             <div class="col-md-6 margin20">
-                <h3 class="heading">Why hire us?</h3>
+                <h3 class="heading">Варианты занятий</h3>
                 <div class="panel-group" id="accordion">
+
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                                    <i class="fa fa-desktop"></i>    100% Responsive Design
+                                    <i class="fa fa-user"></i>Индивидуальные занятия
                                 </a>
                             </h4>
                         </div>
                         <div id="collapseOne" class="panel-collapse collapse in">
                             <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
+                                Занятие длится 90 минут со взрослыми и подростками и 60 минут с детьми (до 6 класса включительно). <br />75% времени на занятии отводится словарной и грамматической работе. 25% - видео, аудирование, чтение. На первых занятиях со взрослыми проводится анализ урока, обсуждаются плюсы и минусы, проблемные места. С детьми - игры.
                             </div>
                         </div>
                     </div>
+
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                                    <i class="fa fa-crop"></i>    Pixel Perfect Design
+                                    <i class="fa fa-group"></i>Групповые занятия
                                 </a>
                             </h4>
                         </div>
                         <div id="collapseTwo" class="panel-collapse collapse">
                             <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+                                Занятие длится 90 минут. Максимальное количество студентов - 4 человека.<br />60% времени занятия отодится на словарную и грамматическую работу. 20% - видео, аудирование, чтение. 20% - устная речь.
                             </div>
                         </div>
                     </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                                    <i class="fa fa-cogs"></i>    Full Support
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseThree" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
 
             <div class="col-md-6 margin20">
-                <h3 class="heading">Our Highlights</h3>
-                <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem dolor sit amet ipsum vitae.
-                </p>
+                <h3 class="heading">Преимущества работы со мной</h3>
+
                 <ul class="list-unstyled highlight-list">
-                    <li><i class="fa fa-check"></i> Lorem ipsum dollor sit amet</li>
-                    <li><i class="fa fa-check"></i> Consectetur adipisicing elit</li>
-                    <li><i class="fa fa-check"></i> Lorem ipsum dollor sit amet</li>
-                    <li><i class="fa fa-check"></i> Consectetur adipisicing elit</li>
+                    <li><i class="fa fa-check"></i>Индивидуальный подход</li>
+                    <li><i class="fa fa-check"></i>Занятия в любое время дня</li>
+                    <li><i class="fa fa-check"></i>Занятия у Вас на дому</li>
+                    <li><i class="fa fa-check"></i>Современные методы обучения</li>
+                    <li><i class="fa fa-check"></i>Новейшие учебные материалы</li>
                 </ul>
             </div>
         </div>

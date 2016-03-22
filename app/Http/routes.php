@@ -23,12 +23,9 @@ Route::get('levels/intermidiate', ['as' => 'levelIntermidiate', 'uses' => 'Level
 Route::get('video', ['as' => 'video', 'uses' =>'VideoController@index']);
 Route::get('audio', ['as' => 'audio', 'uses' => 'AudioController@index']);
 
-Route::get('login-page', ['as' => 'loginPage', 'uses' => 'LoginController@index']);
-
 Route::post('form', ['as' => 'form', 'uses' => 'FormController@index']);
 
 Route::get('albums', ['as' => 'albums', 'uses' => 'AlbumController@index']);
-
 
 Route::group(['middleware' => 'web'], function () {
     Route::auth();

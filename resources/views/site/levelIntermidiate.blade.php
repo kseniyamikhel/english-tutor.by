@@ -5,12 +5,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <h4>Intermidiate Level</h4>
+                    <h4>Intermediate Level</h4>
                 </div>
                 <div class="col-sm-6 hidden-xs text-right">
                     <ol class="breadcrumb">
                         <li><a href="{{ route('main') }}">Home</a></li>
-                        <li>Intermidiate Level</li>
+                        <li>Intermediate Level</li>
                     </ol>
                 </div>
             </div>
@@ -22,9 +22,9 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 margin20">
-                <h3 class="heading">Better Services Provide by us</h3>
+                <h3 class="heading">Intermediate</h3>
                 <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni. Dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+                    You can communicate freely and even speak with some confidence. You know some vocabulary and grammr and use your knowledge while writing or speaking but you still make some mistakes. You can read texts, if they are specialized you use dictionary. You can write using complicated grammar structures.
                 </p>
             </div>
             <div class="col-md-6">

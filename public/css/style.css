@@ -5275,4 +5275,8 @@ body.coming-soon-full {
   margin-bottom: 25px;
   margin-top: 20px; }
 
+.navbar-brand img {
+  width: 190px;
+  margin-top: -10px;
+}
 /*# sourceMappingURL=style.css.map */

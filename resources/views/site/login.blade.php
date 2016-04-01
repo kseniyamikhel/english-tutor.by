@@ -14,19 +14,19 @@
 
                 <h3>Login form</h3>
 
-                <form>
+                <form role="form" method="POST" action="/login">
                     {!! csrf_field() !!}
                     <div class="form-group">
                         <label for="email">Email address</label>
-                        <input type="email" class="form-control" id="email" placeholder="Enter email" required />
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Enter email" required />
                     </div>
                     <div class="form-group">
                         <label for="password">Password</label>
-                       <input type="password" class="form-control" id="password" placeholder="Password" required />
+                       <input type="password" class="form-control" name="password" id="password" placeholder="Password" required />
                     </div>
                     <div class="pull-left">
 
-                        <p><a href="#">Forget password?</a></p>
+                        <p><a class="btn border-theme btn-sm" href="{{ url('/password/reset') }}">Forget password?</a></p>
 
                     </div>
                     <div class="pull-right">

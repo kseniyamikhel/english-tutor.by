@@ -27,7 +27,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum, nulla vel pellentesque consequat, ante nulla hendrerit arcu, ac tincidunt mauris lacus sed leo. vamus suscipit molestie vestibulum.
                     </p>
                     <div class="divide30"></div>
-                    <a href="#" class=" btn border-theme btn-lg">More about me</a>
+                    <a href="{{ route('about') }}" class="btn border-theme btn-lg">More about me</a>
                 </div>
             </div>
         </div>
@@ -51,7 +51,7 @@
                             <i class="fa fa-pencil"></i>
                         </div>
                         <div class="services-box-info">
-                            <h4>Web &AMP; Graphics Design</h4>
+                            <h4>Offer</h4>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing metus. elit. Quisque rutrum pellentesque imperdiet.
                             </p>
@@ -65,7 +65,7 @@
                             <i class="fa fa-globe"></i>
                         </div>
                         <div class="services-box-info">
-                            <h4>Web Development</h4>
+                            <h4>Offer</h4>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing metus. elit. Quisque rutrum pellentesque imperdiet.
                             </p>
@@ -79,7 +79,7 @@
                             <i class="fa fa-users"></i>
                         </div>
                         <div class="services-box-info">
-                            <h4>Customer Support</h4>
+                            <h4>Offer</h4>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing metus. elit. Quisque rutrum pellentesque imperdiet.
                             </p>
@@ -93,7 +93,7 @@
                             <i class="fa fa-crop"></i>
                         </div>
                         <div class="services-box-info">
-                            <h4>Pixel perfect design</h4>
+                            <h4>Offer</h4>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing metus. elit. Quisque rutrum pellentesque imperdiet.
                             </p>
@@ -107,7 +107,7 @@
                             <i class="fa fa-twitter"></i>
                         </div>
                         <div class="services-box-info">
-                            <h4>BOOTSTRAP 3.3.6</h4>
+                            <h4>Offer</h4>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing metus. elit. Quisque rutrum pellentesque imperdiet.
                             </p>
@@ -121,7 +121,7 @@
                             <i class="fa fa-flag"></i>
                         </div>
                         <div class="services-box-info">
-                            <h4>Font Awesome icons</h4>
+                            <h4>Offer</h4>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing metus. elit. Quisque rutrum pellentesque imperdiet.
 
